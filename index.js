@@ -19,7 +19,7 @@ function generateAngka() {
 };
 
 function answerQ () {
- let val = document.getElementById('question');
+ let val = document.getElementById('answer');
  
  if (val === '') { alert('Mohon jawab dulu!'); generateAngka(); }
  
