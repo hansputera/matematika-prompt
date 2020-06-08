@@ -46,5 +46,5 @@ function endMath()
  alert('Mengakhiri permainan dalam 5 detik lagi.');
  setTimeout(() => {
   document.write('<pre> Game sudah diakhiri! </pre>');
- }
+ }, 5 * 1000);
 }
