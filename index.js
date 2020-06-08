@@ -1,5 +1,10 @@
 let ops;
 
+/**
+  - generateAngka()
+  - Membuat pertanyaan
+**/
+
 function generateAngka() {
  let doc = document.getElementById('question');
  
@@ -18,6 +23,11 @@ function generateAngka() {
  ops = out;
 };
 
+/**
+  - answerQ()
+  - Sebuah function yang dimana menyesuaikan soal dan jawaban
+**/
+
 function answerQ () {
  let val = document.getElementById('answer');
  
@@ -25,6 +35,11 @@ function answerQ () {
  
  if (val === ops) { alert('Jawaban kamu benar!\nMembuat pertanyaan baru lagi..'); generateAngka(); }
 }
+
+/**
+ - endMath()
+ - Mengakhiri permainan
+**/
 
 function endMath() 
 {
